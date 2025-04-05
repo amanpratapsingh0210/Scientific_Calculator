@@ -80,7 +80,7 @@ function clrButton() {
     document.getElementById('res').innerHTML = ''
 }
 function clrHis() {
-    document.getElementById('history').innerHTML = ''
+    document.getElementById('history').value = ''
 }
 function mod(){
     let v1 = Number(valInput1())
