@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calcy-style.css">
     <link rel="icon" type="image/x-icon" href="material\images.png"></link>
-    <title>Calculator</title>
+    <title>Scientific Calculator</title>
 </head>
 <body>
     <script src="calcy-script.js"></script>
     <div class="form1">
     <table id="regFormTable" border="4" cellspacing="3" cellpadding="5">
         <form action="" method="get">
-            <caption>Calculator</caption>
+            <caption>Scientific Calculator</caption>
             
             <tr>
                 <td id="sfElements" colspan="2">Value1:</td>
                 <td colspan="2"><input type="number" id="val1"></td>
                 <td style="min-width: 10vw;" rowspan="5" colspan="2" style="background-color: white;  text-align: center;">
-                <textarea name="" id="history" disabled></textarea>
+                <textarea name="" id="history" readonly></textarea>
                 <!-- <p id="history"></p> -->
                 </td>
             </tr>
@@ -46,7 +46,7 @@
                 <td colspan="1"><button type="button" onclick="mod()">Modulus</button></td>
                 <td colspan="1"><button type="button" onclick="percent()">% (V1 of V2)</button></td>
                 <td colspan="2"><button id="clr" type="button" onclick="clrButton()">Clear All Fields</button></td>
-                <td colspan="2"><button id="clrhis" type="button" onclick="clrhis()">Clear History</button></td>
+                <td colspan="2"><button id="clrhis" type="button" onclick="clrHis()">Clear History</button></td>
             </tr>
         </form>   
     </table>

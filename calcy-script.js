@@ -75,12 +75,12 @@ function ansButton() {
     document.getElementById('res').innerHTML = ''
 }
 function clrButton() {
-    document.getElementById('val1').value = ''
-    document.getElementById('val2').value = ''
-    document.getElementById('res').innerHTML = ''
+    document.getElementById('val1').value = '';
+    document.getElementById('val2').value = '';
+    document.getElementById('res').innerHTML = '';
 }
 function clrHis() {
-    document.getElementById('history').value = ''
+    document.getElementById('history').value = '';
 }
 function mod(){
     let v1 = Number(valInput1())
