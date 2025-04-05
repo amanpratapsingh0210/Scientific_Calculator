@@ -81,7 +81,8 @@ function clrButton() {
 }
 function clrHis() {
     his = ''
-    document.getElementById('history').innerHTML = ''
+    his = document.getElementById('history').innerHTML
+    // document.getElementById('history').innerHTML = ''
 }
 function mod(){
     let v1 = Number(valInput1())
